@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_code_problack';
+    src: url('../fonts/sourcecodepro-black-webfont.woff2') format('woff2'),
+         url('../fonts/sourcecodepro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_code_problack_italic';
+    src: url('../fonts/sourcecodepro-blackit-webfont.woff2') format('woff2'),
+         url('../fonts/sourcecodepro-blackit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body {
+  			padding: 0;
+  			margin: 0;
+}
+
+header {
+  			text-align: center;
+  			background-color: skyblue;
+  			color: #fff;
+  			padding: 50px 0;
+}
+
+/*footer {
+        text-align: center;
+        background-color: skyblue;
+        color: #fff;
+        padding: 50px 0;
+}*/
+
+section {
+  			width: 80%;
+  			margin: 50px auto;
+}
+
+h1 {
+  font-family: 'chunkfiveroman';
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: 'chunkfiveroman';
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'chunkfiveroman';
+}
+
+p {
+  text-align: center;
+  font-family: 'source_code_problack';
+}
+
+.char {
+margin: 10px 10px 10px 10px;'
+padding: 10px 10px 10px 10px;
+}
+
+
+.wolf2{
+  padding-bottom: 300px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 100px;
+  float: left;
+  margin: 0 0 10px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+
